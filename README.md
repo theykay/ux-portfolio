@@ -25,7 +25,7 @@ Site built in React.js
 * CSS3
 
 ## Links
-[Site](https://theykay.github.io/uxportfolio)\
+[Site](https://www.theykaydesign.com)\
 [Repository](https://github.com/theykay/ux-portfolio)
 
 ## Contact
