@@ -17,7 +17,7 @@ My portfolio ✌
 
 ## About
 Place for people to learn about me and various projects I've worked on, including web apps and handmade products.\
-Site begun in vanilla HTML and CSS
+Site built in React.js
 
 ## Technologies
 * React.js
