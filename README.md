@@ -1,4 +1,4 @@
-# UX-ortfolio
+# UX-Portfolio
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/dee17323-f4dd-4bd0-9a67-2825953d9073/deploy-status)](https://app.netlify.com/sites/kind-ritchie-a8f6c9/deploys)
 [![project-languages-used](https://img.shields.io/github/languages/count/theykay/ux-portfolio?color=important)](https://github.com/theykay/ux-portfolio)
