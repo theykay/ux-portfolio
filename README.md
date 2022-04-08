@@ -20,8 +20,9 @@ Place for people to learn about me and various projects I've worked on, includin
 Site begun in vanilla HTML and CSS
 
 ## Technologies
-* CSS3
+* React.js
 * HTML5
+* CSS3
 
 ## Links
 [Site](https://theykay.github.io/uxportfolio)\
