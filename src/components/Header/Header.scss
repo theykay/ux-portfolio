@@ -1,6 +1,8 @@
+@use '../../styles/main.scss' as styles;
+
 nav {
   padding: .5rem;
-  background-color: pink;
+  background-color: styles.$white;
   display: flex;
 }
 
@@ -11,4 +13,9 @@ nav {
 .logo {
   width: 3rem;
   height: auto;
+}
+
+.nav-ul {
+  display: flex;
+
 }

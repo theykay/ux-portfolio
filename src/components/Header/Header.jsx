@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css';
+import './Header.scss';
 import logo from '../../content/logo.svg';
 
 const Header = () => {
@@ -10,7 +10,7 @@ const Header = () => {
           <img className="logo" src={logo} alt="logo" />
           <h1>Kay Murray</h1>
         </section>
-        <ul>
+        <ul className="nav-ul">
           <li>work</li>
           <li>about</li>
         </ul>
