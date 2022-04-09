@@ -1,0 +1,14 @@
+nav {
+  padding: .5rem;
+  background-color: pink;
+  display: flex;
+}
+
+.nav-section {
+  display: flex;
+}
+
+.logo {
+  width: 3rem;
+  height: auto;
+}

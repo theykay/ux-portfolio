@@ -1,13 +1,13 @@
 import React from 'react';
 import './Header.css';
-// import logo from './content/logo.png';
+import logo from '../../content/logo.svg';
 
 const Header = () => {
   return (
     <header>
       <nav>
-        <section>
-          {/* <img src={logo} alt="" /> */}
+        <section className="nav-section">
+          <img className="logo" src={logo} alt="logo" />
           <h1>Kay Murray</h1>
         </section>
         <ul>
