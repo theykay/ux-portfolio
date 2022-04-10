@@ -1,0 +1,23 @@
+@use '../../styles/main.scss' as styles;
+
+.main-foot {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: styles.$white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: styles.$titles;
+  h5 {
+    padding: .5rem;
+  }
+}
+
+.foot-nav {
+  width: 15rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+
