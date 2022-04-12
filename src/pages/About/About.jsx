@@ -9,7 +9,7 @@ import {
 
 const About = () => {
   return (
-    <div>
+    <div className="about-content">
       <article>
         <h1>About Me</h1>
         <p></p>
@@ -34,20 +34,23 @@ const About = () => {
       </article>
       <article>
         <h1>Contact</h1>
-        <ul>
-          <li>
-            <a href="mailto:kaybmurray@gmail.com">
-              <FontAwesomeIcon icon={faSquareEnvelope} />
+        <ul className="contact-links">
+          <li className="contact-li">
+            <a className="contact-link" href="mailto:kaybmurray@gmail.com">
+              <FontAwesomeIcon className="contact-icon" icon={faSquareEnvelope} />
+              email
             </a>
           </li>
-          <li>
-            <a href="https://github.com/theykay" target="_blank" rel="noreferrer">
-              <FontAwesomeIcon icon={faGithubSquare} />
+          <li className="contact-li">
+            <a className="contact-link" href="https://www.linkedin.com/in/theykay" target="_blank" rel="noreferrer">
+              <FontAwesomeIcon className="contact-icon" icon={faLinkedin} />
+              theykay
             </a>
           </li>
-          <li>
-            <a href="https://www.linkedin.com/in/theykay" target="_blank" rel="noreferrer">
-              <FontAwesomeIcon icon={faLinkedin} />
+          <li className="contact-li">
+            <a className="contact-link" href="https://github.com/theykay" target="_blank" rel="noreferrer">
+              <FontAwesomeIcon className="contact-icon" icon={faGithubSquare} />
+              theykay
             </a>
           </li>
         </ul>
