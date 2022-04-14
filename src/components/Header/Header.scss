@@ -41,6 +41,10 @@ nav {
     font-family: styles.$titles;
     font-weight: 800;
   }
+  display: none;
+  @include styles.md {
+    display: flex;
+  }
 }
 
 .nav-link {
