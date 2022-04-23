@@ -35,14 +35,14 @@ nav {
 }
 
 .nav-ul {
-  display: flex;
+  background-color: styles.$white;
   li {
     padding-left: 1.5rem;
     font-family: styles.$titles;
     font-weight: 800;
   }
   display: none;
-  @include styles.md {
+  @include styles.sm {
     display: flex;
   }
 }
