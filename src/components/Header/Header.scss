@@ -23,9 +23,12 @@ nav {
     font-size: 2rem;
     color: styles.$pinkDarkest;
   }
-  // :hover {
-  //   // strikethrough effect
-  // }
+}
+
+a.nav-section:hover {
+  img, h1 {
+    text-shadow: 0 0 red;
+  }
 }
 
 .logo {
