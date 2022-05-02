@@ -27,6 +27,10 @@
   padding: 0.5rem 0;
 }
 
+.contact-link:hover {
+  background-color: styles.$lavenderLightest;
+}
+
 .contact-icon {
   width: 3rem;
   height: auto;

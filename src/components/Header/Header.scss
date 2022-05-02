@@ -1,4 +1,4 @@
-@use '../../styles/main.scss' as styles;
+@use "../../styles/main.scss" as styles;
 
 header {
   width: 100vw;
@@ -18,6 +18,26 @@ nav {
   display: flex;
   align-items: center;
   text-decoration: none;
+  // -webkit-transition {
+  //   h1 {
+  //     transform: color 1s ease-in-out;
+  //   }
+  // }
+  // -moz-transition {
+  //   h1 {
+  //     transform: color 1s ease-in-out;
+  //   }
+  // }
+  // -o-transition {
+  //   h1 {
+  //     transform: color 1s ease-in-out;
+  //   }
+  // }
+  // transition {
+  //   h1 {
+  //     transform: color 1s ease-in-out;
+  //   }
+  // }
   h1 {
     font-family: styles.$titles;
     font-size: 2rem;
@@ -26,8 +46,9 @@ nav {
 }
 
 a.nav-section:hover {
-  img, h1 {
-    text-shadow: 0 0 red;
+  h1 {
+    color: styles.$lavenderMain;
+
   }
 }
 
