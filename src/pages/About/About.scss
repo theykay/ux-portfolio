@@ -27,8 +27,9 @@
   padding: 0.5rem 0;
 }
 
-.contact-link:hover {
+.contact-li:hover {
   background-color: styles.$lavenderLightest;
+  box-shadow: 0 0 0.75rem styles.$white;
 }
 
 .contact-icon {
