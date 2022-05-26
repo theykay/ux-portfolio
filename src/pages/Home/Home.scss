@@ -1,8 +1,13 @@
+@use '../../styles/main.scss' as styles;
+
 .page-content {
-  max-width: 100%;
-  margin: 0 auto;
   padding: 2rem 5rem;
 }
+
+.home-h1 {
+  font-family: styles.$title;
+}
+
 .home-section {
-  height: 20rem;
+  // height: 20rem;
 }
