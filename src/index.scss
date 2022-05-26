@@ -1,3 +1,4 @@
+@use "./styles/main.scss" as styles;
 /*  Combo of 
     Andy Bell https://piccalil.li/blog/a-modern-css-reset/
     and
@@ -42,6 +43,7 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: styles.$white;
 }
 
 /* break words so they don't overflow horizontally */
