@@ -39,7 +39,7 @@ nav {
   //   }
   // }
   h1 {
-    font-family: styles.$titles;
+    font-family: styles.$title;
     font-size: 2rem;
     color: styles.$pinkDarkest;
   }
@@ -78,7 +78,7 @@ a.nav-link:hover {
 
 .nav-li {
   // padding-left: 1rem;
-  font-family: styles.$titles;
+  font-family: styles.$header;
   font-weight: 800;
   float: left;
 }
