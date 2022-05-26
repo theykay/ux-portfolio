@@ -4,6 +4,7 @@ import './Home.scss';
 const Home = () => {
   return (
     <div className="page-content">
+      <h1 className="home-h1">ux + ui design</h1>
       <section className="home-section">
         <h1>About Me</h1>
       </section>
