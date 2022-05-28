@@ -51,10 +51,10 @@ const Home = () => {
             <h3>a little about me</h3>
             <p>I'm a maker with a background in traditional product design. I bring a multifaceted skillset to all of my projects, informed by years of experience making physical and digital products. Adept at working in a group or individually, comfortable with giving and receiving constructive criticism of work</p>
           </section>
-          <section className="about-section">
+          <section className="about-section skills-lists">
             <h3>some of my skills</h3>
             <div className="about-section-div">
-              <h4 className="collapser" onClick={reveal}><FontAwesomeIcon className="section-icon" icon={faObjectGroup} />Design Systems</h4>
+              <h4 className="collapser" onClick={reveal}><FontAwesomeIcon className="fa-icon" icon={faObjectGroup} />Design Systems</h4>
               <ul className="about-skills-list 0">
                 <li>VSCode</li>
                 <li>Figma</li>
@@ -64,27 +64,27 @@ const Home = () => {
               </ul>
             </div>
             <div className="about-section-div">
-              <h4 className="collapser" onClick={reveal}><FontAwesomeIcon className="section-icon" icon={faPenRuler} />Creative Tools</h4>
+              <h4 className="collapser" onClick={reveal}><FontAwesomeIcon className="fa-icon" icon={faPenRuler} />Creative Tools</h4>
               <ul className="about-skills-list 1">
                 <li>Illustrator</li>
                 <li>InDesign</li>
               </ul>
             </div>
             <div className="about-section-div">
-              <h4 className="collapser" onClick={reveal}><FontAwesomeIcon className="section-icon" icon={faCode} />Languages</h4>
+              <h4 className="collapser" onClick={reveal}><FontAwesomeIcon className="fa-icon" icon={faCode} />Languages</h4>
               <ul className="about-skills-list 2">
-                <li><FontAwesomeIcon className="list-icon" icon={faHtml5} />HTML5</li>
-                <li><FontAwesomeIcon className="list-icon" icon={faCss3Alt} />CSS3</li>
-                <li><FontAwesomeIcon className="list-icon" icon={faJsSquare} />JavaScript ES6</li>
-                <li><FontAwesomeIcon className="list-icon" icon={faReact} />React.js</li>
-                <li><FontAwesomeIcon className="list-icon" icon={faSass} />SCSS</li>
-                <li><FontAwesomeIcon className="list-icon" icon={faNodeJs} />Node.js</li>
-                <li><FontAwesomeIcon className="list-icon" icon={faLaptopCode} />C# <span>learning</span></li>
-                <li><FontAwesomeIcon className="list-icon" icon={faLaptopCode} />TypeScript <span>learning</span></li>
+                <li><FontAwesomeIcon className="fa-icon" icon={faHtml5} />HTML5</li>
+                <li><FontAwesomeIcon className="fa-icon" icon={faCss3Alt} />CSS3</li>
+                <li><FontAwesomeIcon className="fa-icon" icon={faJsSquare} />JavaScript ES6</li>
+                <li><FontAwesomeIcon className="fa-icon" icon={faReact} />React.js</li>
+                <li><FontAwesomeIcon className="fa-icon" icon={faSass} />SCSS</li>
+                <li><FontAwesomeIcon className="fa-icon" icon={faNodeJs} />Node.js</li>
+                <li><FontAwesomeIcon className="fa-icon" icon={faLaptopCode} />C# <span>learning</span></li>
+                <li><FontAwesomeIcon className="fa-icon" icon={faLaptopCode} />TypeScript <span>learning</span></li>
               </ul>
             </div>
             <div className="about-section-div">
-              <h4 className="collapser" onClick={reveal}><FontAwesomeIcon className="section-icon" icon={faPeopleGroup} />Project Management</h4>
+              <h4 className="collapser" onClick={reveal}><FontAwesomeIcon className="fa-icon" icon={faPeopleGroup} />Project Management</h4>
               <ul className="about-skills-list 3">
                 <li>Discord</li>
                 <li>Slack</li>

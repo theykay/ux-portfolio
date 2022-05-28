@@ -4,21 +4,23 @@
   padding: 2rem 5rem;
 }
 
-.home-h1 {
-  font-family: styles.$title;
-}
-
-.about-section-div {
+.home-article {
   display: flex;
   flex-direction: column;
-  padding: .5rem 0;
+  align-items: flex-start;
+}
+
+.home-h1 {
+  font-family: styles.$title;
 }
 
 .collapser {
   background-color: styles.$white;
   color: styles.$pinkDarkest;
   padding: .25rem .5rem;
-  width: auto;
+  display: block;
+  width: 100%;
+  margin-right: auto;
 }
 
 .active-collapser, .collapser:hover {
@@ -34,13 +36,9 @@
 }
 
 .unfolded {
-  display: block;
+  display: inline-block;
 }
 
-.section-icon {
-  padding-right: .5rem;
-}
-
-.list-icon {
+.fa-icon {
   padding-right: .5rem;
 }
