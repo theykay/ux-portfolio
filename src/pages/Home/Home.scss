@@ -31,8 +31,10 @@
 
 .about-skills-list {
   margin-left: .75rem;
-  display: none;
+  // display: none;
   overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
 }
 
 .unfolded {

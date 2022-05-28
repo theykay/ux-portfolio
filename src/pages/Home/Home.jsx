@@ -18,31 +18,46 @@ import {
 import './Home.scss';
 
 const Home = () => {
+  const collapseLists = (e) => {
+    const skillsContainer = document.getElementsByClassName('skills-lists');
+    const lists = document.getElementsByClassName('about-skills-list');
+    if (skillsContainer[0] !== e.target && !skillsContainer[0].contains(e.target)) {
+      for (let i = 0; i < lists.length; i++) {
+        lists[i].style.maxHeight = null;
+      }
+    }
+  }
+
   // need to remove classes when clicking outside e.target
   const reveal = (e) => {
-    e.target.nextSibling.classList.toggle('unfolded');
     e.target.classList.toggle('active-collapser');
-    let indicator = e.target.nextSibling.classList[1];
-    // collapse other lists
+    const indicator = parseInt(e.target.nextSibling.classList[1]);
     let lists = document.getElementsByClassName('about-skills-list');
+    // collapse other lists
     for (let i = 0; i < lists.length; i++) {
-      if (i === parseInt(indicator)) {
+      if (i === indicator) {
         continue;
       }
-      lists[i].classList.remove('unfolded');
+      lists[i].style.maxHeight = null;
     }
-    // unhighlight other collapsers
+    // unhilight other collapsers
     let togglers = document.getElementsByClassName('collapser');
     for (let j = 0; j < togglers.length; j++) {
-      if (j === parseInt(indicator)) {
+      if (j === indicator) {
         continue;
       }
       togglers[j].classList.remove('active-collapser');
     }
+    let content = e.target.nextSibling;
+    if (content.style.maxHeight) {
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + 'px';
+    }
   }
 
   return (
-    <div className="page-content">
+    <div className="page-content" onClick={collapseLists}>
       <h1 className="home-h1">ux + ui design</h1>
       <section className="home-section">
         <h2 className="home-h2">I'm Kay</h2>
