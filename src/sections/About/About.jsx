@@ -9,7 +9,7 @@ import {
 
 const About = () => {
   return (
-    <div className="about-content">
+    <div id="about" className="about-content">
       <article>
         <h1>About Me</h1>
         <p></p>

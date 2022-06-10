@@ -8,13 +8,16 @@ const App = () => {
   return (
     <>
       <Router>
-        <Header />
-        <Routes>
+      <Header />
+      {/* <Routes>
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="work" element={<Work />} />
-        </Routes>
-        <Footer />
+        </Routes> */}
+      <Home />
+      <About />
+      <Work />
+      <Footer />
       </Router>
     </>
   );

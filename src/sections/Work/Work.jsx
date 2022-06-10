@@ -3,7 +3,7 @@ import './Work.scss';
 
 const Work = () => {
   return (
-    <div className="work-main">
+    <div id="work" className="work-main">
       {/* carousel of case studies */}
       <section className="case-studies"></section>
       {/* banner link to exercises */}

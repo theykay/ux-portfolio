@@ -57,7 +57,7 @@ const Home = () => {
   }
 
   return (
-    <div className="page-content" onClick={collapseLists}>
+    <div id="home" className="page-content" onClick={collapseLists}>
       <h1 className="home-h1">ux + ui design</h1>
       <section className="home-section">
         <h2 className="home-h2">I'm Kay</h2>
