@@ -8,16 +8,22 @@ const App = () => {
   return (
     <>
       <Router>
-      <Header />
-      {/* <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="work" element={<Work />} />
-        </Routes> */}
-      <Home />
-      <About />
-      <Work />
-      <Footer />
+        <Header />
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <Home />
+                <About />
+                <Work />
+              </>
+            }
+          />
+          {/* routes for different projects */}
+          {/* <Route path="wandr" element={<About />} /> */}
+        </Routes>
+        <Footer />
       </Router>
     </>
   );

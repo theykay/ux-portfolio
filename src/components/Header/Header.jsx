@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import './Header.scss';
 import logo from '../../content/logo.svg';
 
@@ -7,16 +7,22 @@ const Header = () => {
   return (
     <header>
       <nav>
-        <Link className="nav-section" to="#home">
+        <a className="nav-section" href="/">
           <img className="logo" src={logo} alt="logo" />
           <h1>theyKay</h1>
-        </Link>
+        </a>
         <ul className="nav-ul">
           <li className="nav-li">
-            <Link className="nav-link" to="#about">about</Link>
+            {/* <Link className="nav-link" to="#about">about</Link> */}
+            <a href="#about" className="nav-link">
+              about
+            </a>
           </li>
-          <li className="nav-li  dd-trigger">
-            <Link className="nav-link" to="#work">work</Link>
+          <li className="nav-li dd-trigger">
+            {/* <Link className="nav-link" to="#work">work</Link> */}
+            <a href="#work" className="nav-link">
+              work
+            </a>
             {/* dropdown menu */}
             {/* <ul className="dd-nav">
               <li className="dd-item">
@@ -28,7 +34,10 @@ const Header = () => {
             </ul> */}
           </li>
           <li className="nav-li">
-            <Link className="nav-link" to="#resume">resumé</Link>
+            {/* <Link className="nav-link" to="#resume">resumé</Link> */}
+            <a href="#resume" className="nav-link">
+              resumé
+            </a>
           </li>
         </ul>
       </nav>
