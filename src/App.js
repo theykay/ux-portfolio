@@ -13,11 +13,11 @@ const App = () => {
           <Route
             path="/"
             element={
-              <>
+              <div className="page-contents">
                 <Home />
                 <About />
                 <Work />
-              </>
+              </div>
             }
           />
           {/* routes for different projects */}

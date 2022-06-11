@@ -21,14 +21,15 @@ const Home = () => {
   const collapseLists = (e) => {
     const skillsContainer = document.getElementsByClassName('skills-lists');
     const lists = document.getElementsByClassName('about-skills-list');
+    const collapsers = document.getElementsByClassName('collapser');
     if (skillsContainer[0] !== e.target && !skillsContainer[0].contains(e.target)) {
       for (let i = 0; i < lists.length; i++) {
         lists[i].style.maxHeight = null;
+        collapsers[i].classList.remove('active-collapser');
       }
     }
   }
 
-  // need to remove classes when clicking outside e.target
   const reveal = (e) => {
     e.target.classList.toggle('active-collapser');
     const indicator = parseInt(e.target.nextSibling.classList[1]);
