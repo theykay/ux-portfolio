@@ -15,6 +15,11 @@
   font-size: 2rem;
 }
 
+.home-h2 {
+  font-family: styles.$title;
+  font-size: 1.5rem;
+}
+
 .collapser {
   background-color: styles.$white;
   color: styles.$pinkDarkest;
@@ -44,4 +49,8 @@
 
 .fa-icon {
   padding-right: .5rem;
+}
+
+.learn {
+  color: styles.$pinkDarkest;
 }

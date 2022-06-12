@@ -64,7 +64,8 @@ const Home = () => {
       <article className="home-article">
         <section className="about-section">
           <h3>a little about me</h3>
-          <p>I'm a maker with a background in traditional product design. I bring a multifaceted skillset to all of my projects, informed by years of experience making physical and digital products. Adept at working in a group or individually, comfortable with giving and receiving constructive criticism of work</p>
+          <p>I'm a maker with a background in traditional product design. I bring a multifaceted skillset to all of my projects, informed by years of experience making physical and digital products. Adept at working in a group or individually, comfortable with giving and receiving constructive criticism of work. Ultimately I want to have a role in accessibility design
+          </p>
         </section>
         <section className="about-section skills-lists">
           <h3>some of my skills</h3>
@@ -94,8 +95,8 @@ const Home = () => {
               <li><FontAwesomeIcon className="fa-icon" icon={faReact} />React.js</li>
               <li><FontAwesomeIcon className="fa-icon" icon={faSass} />SCSS</li>
               <li><FontAwesomeIcon className="fa-icon" icon={faNodeJs} />Node.js</li>
-              <li><FontAwesomeIcon className="fa-icon" icon={faLaptopCode} />C# <span>learning</span></li>
-              <li><FontAwesomeIcon className="fa-icon" icon={faLaptopCode} />TypeScript <span>learning</span></li>
+              <li><FontAwesomeIcon className="fa-icon" icon={faLaptopCode} />C# <span className="learn">learning</span></li>
+              <li><FontAwesomeIcon className="fa-icon" icon={faLaptopCode} />TypeScript <span className="learn">learning</span></li>
             </ul>
           </div>
           <div className="about-section-div">
