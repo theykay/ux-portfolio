@@ -7,28 +7,30 @@ import { Home, About, Work, Project } from "./sections/index.js";
 const App = () => {
   return (
     <>
-      <Router>
-        <Header />
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <div className="page-contents">
-                <Home />
-                <About />
-                <Work />
-              </div>
-            }
-          />
-          {/* routes for different projects */}
-          <Route path="wandr" element={<Project name="wandr" />} />
-          <Route path="childcare" element={<Project name="childcare" />} />
-          <Route path="usda" element={<Project name="usda" />} />
-          <Route path="charity" element={<Project name="charity" />} />
-          <Route path="coffee" element={<Project name="coffee" />} />
-        </Routes>
-        <Footer />
-      </Router>
+      <Header />
+      <div className="routes">
+        <Router>
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <div className="page-contents">
+                  <Home />
+                  <About />
+                  <Work />
+                </div>
+              }
+            />
+            {/* routes for different projects */}
+            <Route path="wandr" element={<Project name="wandr" />} />
+            <Route path="childcare" element={<Project name="childcare" />} />
+            <Route path="usda" element={<Project name="usda" />} />
+            <Route path="charity" element={<Project name="charity" />} />
+            <Route path="coffee" element={<Project name="coffee" />} />
+          </Routes>
+        </Router>
+      </div>
+      <Footer />
     </>
   );
 };

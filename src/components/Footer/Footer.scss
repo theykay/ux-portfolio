@@ -11,13 +11,15 @@
   font-family: styles.$header;
   h5 {
     padding: .5rem;
+    max-width: 88rem;
+    margin: 0 auto;
   }
 }
 
-.foot-nav {
-  width: 15rem;
-  display: flex;
-  justify-content: space-between;
-}
+// .foot-nav {
+//   width: 15rem;
+//   display: flex;
+//   justify-content: space-between;
+// }
 
 

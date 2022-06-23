@@ -101,8 +101,6 @@ You should tweak the selector to match your framework. We want to select the top
 }
 
 #root {
-  min-height: 100vh;
-  max-width: 88rem;
-  margin: 0 auto;
+  // min-height: 100vh;
   position: relative;
 }
