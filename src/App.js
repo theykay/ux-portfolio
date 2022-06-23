@@ -16,8 +16,8 @@ const App = () => {
               element={
                 <div className="page-contents">
                   <Home />
-                  <About />
                   <Work />
+                  <About />
                 </div>
               }
             />

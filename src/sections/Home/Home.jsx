@@ -58,14 +58,14 @@ const Home = () => {
   }
 
   return (
-    <section id="home" className="page-content" onClick={collapseLists}>
+    <section id="home" className="home-content" onClick={collapseLists}>
       <h1>This site is currently a work in progress, but you can check out my projects on <a href="https://www.behance.net/theykay" target="blank">Behance</a></h1>
       <h1 className="home-h1">ux + ui design</h1>
       <h2 className="home-h2">I'm Kay</h2>
       <article className="home-article">
         <section className="about-section">
           <h3>a little about me</h3>
-          <p>I'm a maker with a background in traditional product design. I bring a multifaceted skillset to all of my projects, informed by years of experience making physical and digital products. Adept at working in a group or individually, comfortable with giving and receiving constructive criticism of work. Ultimately I want to have a role in accessibility design
+          <p>I'm a maker with a background in traditional product design. I bring a multifaceted skillset to all of my projects, informed by years of experience making physical and digital products. Adept at working in a group or individually, comfortable with giving and receiving constructive criticism of work. Ultimately, I'm seeking a role in accessibility design
           </p>
         </section>
         <section className="about-section skills-lists">

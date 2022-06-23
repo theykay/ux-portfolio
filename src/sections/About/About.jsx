@@ -10,28 +10,28 @@ import {
 const About = () => {
   return (
     <div id="about" className="about-content">
-      <article>
+      {/* <article>
         <h1>About Me</h1>
         <p></p>
       </article>
       <article>
         <h1>My UX Skills</h1>
         <section>
-          {/* <img src="" alt="" /> */}
+          <img src="" alt="" />
           <h3>User research</h3>
           <p></p>
         </section>
         <section>
-          {/* <img src="" alt="" /> */}
+          <img src="" alt="" />
           <h3>User Interface Design</h3>
           <p></p>
         </section>
         <section>
-          {/* <img src="" alt="" /> */}
+          <img src="" alt="" />
           <h3>Web Development</h3>
           <p></p>
         </section>
-      </article>
+      </article> */}
       <article>
         <h1>Contact</h1>
         <ul className="contact-links">

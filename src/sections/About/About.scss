@@ -1,11 +1,12 @@
 @use '../../styles/main.scss' as styles;
 
 .about-content {
-  padding: 1.5rem;
+  padding: 1rem 2rem;
 }
 
 .contact-links {
   width: 22rem;
+  margin-top: .5rem;
   display: flex;
   justify-content: space-between;
 }
@@ -23,7 +24,7 @@
   text-decoration: none;
   font-family: styles.$header;
   color: styles.$pinkDarkest;
-  font-weight: 800;
+  font-weight: 700;
   padding: 0.5rem 0;
 }
 
@@ -33,7 +34,7 @@
 }
 
 .contact-icon {
-  width: 3rem;
+  width: 2rem;
   height: auto;
   color: styles.$pinkDarkest;
 }
