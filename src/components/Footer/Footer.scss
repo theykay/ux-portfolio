@@ -1,7 +1,7 @@
 @use '../../styles/main.scss' as styles;
 
 .main-foot {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   background-color: styles.$white;
@@ -11,15 +11,8 @@
   font-family: styles.$header;
   h5 {
     padding: .5rem;
-    max-width: 88rem;
-    margin: 0 auto;
+    // max-width: 88rem;
+    // margin: 0 auto;
+    font-size: 1rem;
   }
 }
-
-// .foot-nav {
-//   width: 15rem;
-//   display: flex;
-//   justify-content: space-between;
-// }
-
-
